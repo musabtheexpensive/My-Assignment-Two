@@ -122,26 +122,168 @@ body {
     border-radius: 17px;
     background: #FD6E0A;
     border: 0;
-    font-size: 15px;
+    font-size: 12px;
     color: white;
     font-weight: 700;
-    padding: 12px 15px;
+    padding: 12px 21px;
 }
 
 .btn-secoundary {
     border-radius: 17px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     border: 0;
-    font-size: 15px;
+    font-size: 14px;
     color: white;
     font-weight: 700;
     padding: 12px 15px;
 }
+
 /* Third section style start here */
+.secound-info {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    /* height: 100vh; */
+    width: 100vh;
+
+}
+
+.banner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    padding-top: 200px;
+    /* margin-left: 100px; */
+    gap: 10px;
+    width: 1350px;
+    height: 427px;
+}
+
+.banner h1 {
+    font-size: 30px;
+}
+
+.banner p {}
+
+.profile-images {
+    /* padding-left: 300px; */
+}
+
+/* sixth section start here */
+.allboxes {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    background-position: center;
+    width: 1350px;
+    height: 427px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding-top: 100px;
+}
+.mainboxone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.box9:hover {
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    color: palevioletred;
+}
+.box8:hover {
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    color: palevioletred;
+}
+.box7:hover {
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    color: palevioletred;
+}
+.box6:hover {
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    color: palevioletred;
+}
+.box5:hover {
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    color: palevioletred;
+}
+
+.box4:hover {
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    color: palevioletred;
+}
+
+.box3:hover {
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    color: palevioletred;
+}
+
+.box2:hover {
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    color: palevioletred;
+}
+
+.box1:hover {
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    color: palevioletred;
+}
 
 /* responsive section start here */
 @media screen and (max-width:576px) {
-    .nav-container {
+
+    .nav-container,
+    .banner, .mainbox, .mainboxone {
         flex-direction: column;
         padding-left: 0;
     }
@@ -174,7 +316,9 @@ body {
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
-    .first-container {
+
+    .first-container,
+    .banner, .mainbox, .mainboxone {
         flex-direction: column;
         padding-left: 0;
         padding-right: 0;
