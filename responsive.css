@@ -1,0 +1,123 @@
+
+/* responsive section start here */
+@media screen and (max-width:576px) {
+
+    .nav-container,
+    .banner,
+    .mainbox,
+    .mainboxone {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .mainbox,
+    .mainboxone {
+        margin: ;
+        padding: 0;
+        width: 50%;
+        height: 70%;
+    }
+
+    .allboxes {
+        background: none;
+        background-repeat: no-repeat;
+        height: 50%;
+        width: 50%;
+    }
+
+    .banner {
+        height: 50%;
+        width: 70%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .secound-info {
+        width: 50%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .first-section-container {
+        padding-left: 10px;
+        padding-right: 0;
+        width: 50vh;
+    }
+
+    .first-container {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 15px;
+        height: 50%;
+    }
+
+    .Group18 {
+        height: 20%;
+        width: -30%;
+    }
+
+    .logo-container {
+        padding: 5px;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .first-container,
+    .banner,
+    .mainbox,
+    .mainboxone {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mainbox,
+    .mainboxone {
+        margin: ;
+        padding: 0;
+        width: 50%;
+        height: 70%;
+    }
+
+    .allboxes {
+        background: none;
+        background-repeat: no-repeat;
+        height: 50%;
+        width: 50%;
+    }
+
+    .banner {
+        height: 50%;
+        width: 70%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .secound-info {
+        /* width: 100%; */
+        /* height: 50%; */
+        padding: 0;
+        margin: 0;
+    }
+
+    .first-section-container {
+        padding-left: 280px;
+        padding-right: 0;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+
+    .Group18 {
+        width: 100%;
+        height: 80%;
+        padding-top: 70px;
+        padding-left: 150px;
+    }
+}
