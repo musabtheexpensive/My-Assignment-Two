@@ -53,22 +53,117 @@ body {
 }
 
 .login-btn {
-
     flex-shrink: 0;
-    border-radius: 8px;
+    border-radius: 15px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 10px 20px;
+    padding: 8px 15px;
     font-weight: 700;
     color: #3C354F;
-
+    display: flex;
+    justify-content: space-between;
 }
+
+.div,
+.div2 {
+    padding-left: 8px;
+}
+
+/* secound section style start here */
+.first-container {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.first-section-container {
+    background-image: url("./images/Group\ 14.png");
+    background-repeat: repeat;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
+    align-items: center;
+    height: 150%;
+    width: 50%;
+}
+
+.first-section-container h2 {
+    font-size: 30px;
+    color: rgba(83, 76, 100, 1);
+}
+
+.first-section-container h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+}
+
+.first-section-container h4 {
+    gap: 20px;
+}
+
+.Group18 {
+    height: 150%;
+    width: 100%;
+    padding-right: 150px;
+}
+
+.head-btn {
+    display: flex;
+    gap: 15px;
+    top: 20px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    border-radius: 17px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    padding: 12px 15px;
+}
+
+.btn-secoundary {
+    border-radius: 17px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: 0;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    padding: 12px 15px;
+}
+/* Third section style start here */
 
 /* responsive section start here */
 @media screen and (max-width:576px) {
     .nav-container {
         flex-direction: column;
-        padding-left: 25px;
+        padding-left: 0;
     }
+
+    .first-section-container {
+        padding-left: 10px;
+        padding-right: 0;
+        width: 50vh;
+    }
+
+    .first-container {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 15px;
+        height: 50%;
+    }
+
+    .Group18 {
+        padding-right: 0;
+    }
+
     .logo-container {
         padding: 5px;
     }
@@ -78,4 +173,24 @@ body {
     }
 }
 
-@media screen and (min-width:577px) and (max-width:992px) {}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .first-container {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .first-section-container {
+        padding-left: 280px;
+        padding-right: 0;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+
+    .Group18 {
+        width: 100%;
+        height: 80%;
+        padding-top: 70px;
+        padding-left: 150px;
+    }
+}
