@@ -123,20 +123,20 @@ body {
   border-radius: 17px;
   background: #fd6e0a;
   border: 0;
-  font-size: 12px;
+  font-size: 10px;
   color: white;
   font-weight: 700;
-  padding: 12px 21px;
+  padding: 15px 21px;
 }
 
 .btn-secoundary {
   border-radius: 17px;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   border: 0;
-  font-size: 14px;
+  font-size: 11px;
   color: white;
   font-weight: 700;
-  padding: 12px 15px;
+  padding: 15px 15px;
 }
 
 /* Third section style start here */
@@ -397,6 +397,11 @@ body {
   margin: 100px 0;
   display: flex;
   justify-content: space-around;
+}
+.little-p{
+    padding-left: 30px;
+    align-items: center;
+    margin-left: 60px;
 }
 
 .image-3 {
